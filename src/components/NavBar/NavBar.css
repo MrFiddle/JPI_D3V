@@ -1,0 +1,18 @@
+.navbar-item {
+  position: relative;
+  display: inline-block;
+  font-weight: 1000;
+  color: white;
+  overflow: hidden;
+  background: linear-gradient(to right, #f2cbff, #f2cbff 50%, white 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+}
+
+.navbar-item:hover {
+  background-position: 0 100%;
+}
